@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #0fbf61;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.text-success {
+  color: var(--primary-color);
+}
+.btn-success {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.bg-success {
+  background-color: var(--primary-color) !important;
+}
+
+.btn-light-success:hover {
+  background: hsl(148, 85%, 40%);
+  color: hsl(0, 0%, 97%);
+}
+.navbar-light .nav-link:hover {
+  background: var(--primary-color);
+  color: hsl(0, 0%, 97%) !important;
+}
+.navbar-light .active {
+  background: var(--primary-color);
+  color: hsl(0, 0%, 97%) !important;
+}
+.bg-success-glass {
+  background: hsl(148, 61%, 94%);
+  color: var(--primary-color);
+}
+.bg-primary-glass {
+  background: hsl(216, 61%, 94%);
+  color: #0d6efd;
+}
+.bg-indigo-glass {
+  background: hsl(263, 61%, 94%);
+  color: hsl(263, 90%, 51%);
+}
+.bg-purple-glass {
+  background: hsl(261, 61%, 94%);
+  color: hsl(261, 51%, 51%);
+}
+.bg-pink-glass {
+  background: hsl(330, 61%, 94%);
+  color: hsl(330, 67%, 52%);
+}
+.bg-danger-glass {
+  background: hsl(354, 61%, 94%);
+  color: hsl(354, 70%, 54%);
+}
+.text-indigo {
+  color: var(--bs-indigo);
+}
+.bg-indigo {
+  background: var(--bs-indigo);
+}
+.text-pink {
+  color: var(--bs-pink);
+}
+.bg-pink {
+  background: var(--bs-pink);
+}
+.small {
+  font-size: 0.75rem;
+}
+.services .card-title {
+  font-weight: bolder;
+}
+.services .card-text {
+  font-size: 0.85rem;
+  text-align: justify;
+}
